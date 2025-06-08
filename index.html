@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventChain - Mint Your Ticket</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <div class="container">
+        <img src="assets/logo.png" class="logo" alt="EventChain Logo">
+        <h1>Welcome to EventChain</h1>
+        <h2>Your Gateway to Decentralized Ticketing</h2>
+        <input type="text" placeholder="Event Name" id="eventName">
+        <input type="password" placeholder="Ticket Password" id="ticketPassword">
+        <button onclick="mintTicket()">Mint My Ticket</button>
+        <button onclick="redirectToTickets()">Show My Tickets</button>
+        <div id="temporaryTicket"></div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
