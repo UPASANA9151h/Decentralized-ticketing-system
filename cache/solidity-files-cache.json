@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Upasama\\OneDrive\\Desktop\\Eventchain new\\smartcontracts\\contracts\\EventChain.sol": {
+      "lastModificationDate": 1742403575097,
+      "contentHash": "40f6ca49d1b620422cd3c39629b3d1df",
+      "sourceName": "contracts/EventChain.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EventChain"
+      ]
+    }
+  }
+}
