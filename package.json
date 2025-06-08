@@ -1,28 +1,36 @@
 {
-  "name": "eventchain-frontend",
-  "version": "1.0.0",
-  "description": "EventChain Frontend",
- 
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
-  "dependencies": {
-    "ethers": "^5.7.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "eventchain-backend",
+    "version": "1.0.0",
+    "description": "Backend server for EventChain DApp",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "compile": "npx hardhat compile",
+        "deploy": "npx hardhat run scripts/deploy.js --network localhost"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "ethers": "^6.3.0",
+        "express": "^4.21.2",
+        "web3": "^1.10.0"
+    },
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "hardhat": "^2.18.0",
+        "mocha": "^10.2.0",
+        "nodemon": "^3.0.0"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "keywords": [
+        "blockchain",
+        "Ethereum",
+        "smart contracts",
+        "web3"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "author": "Your Name",
+    "license": "MIT"
 }
